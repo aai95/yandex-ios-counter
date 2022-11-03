@@ -1,19 +1,18 @@
-//
-//  ViewController.swift
-//  Counter
-//
-//  Created by Алексей on 03.11.2022.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var counterLabel: UILabel!
+    @IBOutlet weak var plusOneButton: UIButton!
+    
+    private var counterValue: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func buttonTouchUpInside() {
+        counterValue += 1
+        counterLabel.text = "Значение счётчика: \(counterValue)"
+    }
 }
-
