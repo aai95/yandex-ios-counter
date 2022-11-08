@@ -41,7 +41,6 @@
                     </view>
                     <connections>
                         <outlet property="counterLabel" destination="vsy-nK-zBH" id="SpD-6H-lO6"/>
-                        <outlet property="plusOneButton" destination="Ghf-KK-6uQ" id="tOH-cE-kJg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
